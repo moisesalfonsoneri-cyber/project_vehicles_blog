@@ -29,7 +29,7 @@ with control_col_1:
     if st.button("Construir histogramas"):
         st.session_state.show_histogram = not st.session_state.show_histogram
 with control_col_2:
-    if st.button("Construir scatter plot"):
+    if st.button("Gráfica Dispersión"):
         st.session_state.show_scatter = not st.session_state.show_scatter
 
 show_histogram = st.session_state.show_histogram
